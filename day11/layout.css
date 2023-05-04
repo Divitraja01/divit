@@ -1,0 +1,37 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+
+}
+.container{
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+     
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green ;
+
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.magenta{
+    background-color: magenta;
+}
+.brown{
+    background-color: brown;
+}

@@ -8,6 +8,7 @@ body{
 div{
     width: 200px;
     height: 200px;
+    
 }
 .red{
     background-color: red;
@@ -38,5 +39,41 @@ div{
 @media screen and (min-width:700px) and (max-width:999px){
     body{
         background-color: burlywood;
+    }
+}
+@media screen and (min-width:500px){
+    div{
+        display: inline;
+        
+    }
+}
+@media screen and (max-width:480px){
+    .red{
+        background-color: blue;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .red{
+        background-color: orange;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .red{
+        background-color: yellow;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1260px){
+    .red{
+        background-color: brown;
+    }
+}
+@media screen and (min-width:1261px){
+    .red{
+        background-color: red;
+    }
+}
+@media (orientation: landscaspe) {
+    body{
+         background-color: pink;
     }
 }
